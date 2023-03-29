@@ -1,6 +1,6 @@
 ﻿namespace MenuCalculatorGui
 {
-    partial class Calculator6
+    partial class CalculatorGUI
     {
         /// <summary>
         /// Required designer variable.
@@ -349,7 +349,7 @@
             this.display.TabIndex = 20;
             this.display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // Calculator6
+            // CalculatorGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -376,7 +376,7 @@
             this.Controls.Add(this.button0);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Calculator6";
+            this.Name = "CalculatorGUI";
             this.Text = "Callculator Gui";
             this.ResumeLayout(false);
             this.PerformLayout();

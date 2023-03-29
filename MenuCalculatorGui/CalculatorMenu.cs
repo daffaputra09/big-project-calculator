@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MenuCalculatorGui
 {
-    public partial class Calculator1 : Form
+    public partial class CalculatorMenu : Form
     {
-        public Calculator1()
+        public CalculatorMenu()
         {
             InitializeComponent();
         }
@@ -136,20 +136,20 @@ namespace MenuCalculatorGui
         {
             if(jadi.Text.Length == 0)
             { 
-            if (buttonnext.Enabled == true)
-            {
-                if (angka1.Text.Length > 0)
+                if (buttonnext.Enabled == true)
                 {
-                    angka1.Text = angka1.Text.Remove(angka1.Text.Length - 1);
+                    if (angka1.Text.Length > 0)
+                    {
+                        angka1.Text = angka1.Text.Remove(angka1.Text.Length - 1);
+                    }
                 }
-            }
-            else if (buttonnext.Enabled == false)
-            {
-                if (angka2.Text.Length > 0)
+                else if (buttonnext.Enabled == false)
                 {
-                    angka2.Text = angka2.Text.Remove(angka2.Text.Length - 1);
+                    if (angka2.Text.Length > 0)
+                    {
+                        angka2.Text = angka2.Text.Remove(angka2.Text.Length - 1);
+                    }
                 }
-            }
             }
             else
             {

@@ -31,18 +31,24 @@ namespace MenuCalculatorGui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Calculator1 newform = new Calculator1();
+            CalculatorMenu newform = new CalculatorMenu();
             newform.Show();
         }
         private void calculator6_Click(object sender, EventArgs e)
         {
-            Calculator6 newform = new Calculator6();
+            CalculatorGUI newform = new CalculatorGUI();
             newform.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Calculator2 newform = new Calculator2();
+            CalculatorSymbol newform = new CalculatorSymbol();
+            newform.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CalculatorFullString newform = new CalculatorFullString();
             newform.Show();
         }
     }

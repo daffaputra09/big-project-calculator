@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MenuCalculatorGui
 {
-    public partial class Calculator6 : Form
+    public partial class CalculatorGUI : Form
     {
-        public Calculator6()
+        public CalculatorGUI()
         {
             InitializeComponent();
         }

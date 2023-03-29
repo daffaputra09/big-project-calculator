@@ -11,6 +11,7 @@ D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.exe
 D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.pdb
 D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.PilihanMenu.resources
 D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.UserControl1.resources
-D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.Calculator6.resources
-D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.Calculator1.resources
-D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.Calculator2.resources
+D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.CalculatorMenu.resources
+D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.CalculatorGUI.resources
+D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.CalculatorSymbol.resources
+D:\cs\MenuCalculatorGui\MenuCalculatorGui\obj\Debug\MenuCalculatorGui.CalculatorFullString.resources
