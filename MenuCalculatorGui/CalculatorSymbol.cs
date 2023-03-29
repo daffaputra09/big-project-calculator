@@ -292,18 +292,12 @@ namespace MenuCalculatorGui
 
         private void angka1_TextChanged(object sender, EventArgs e)
         {
-            if(angka1.Text.Length < 1)
-            {
-                angka1.Text = "0";
-            }
+
         }
 
         private void angka2_TextChanged(object sender, EventArgs e)
         {
-            if(angka2.Text.Length< 1)
-            {
-                angka2.Text = "0";
-            }
+
         }
     }
 }

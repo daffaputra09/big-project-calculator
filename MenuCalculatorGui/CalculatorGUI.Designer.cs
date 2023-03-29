@@ -326,11 +326,13 @@
             this.display.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
             this.display.ForeColor = System.Drawing.Color.White;
             this.display.Location = new System.Drawing.Point(16, 37);
-            this.display.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.display.Margin = new System.Windows.Forms.Padding(2);
             this.display.Name = "display";
+            this.display.ReadOnly = true;
             this.display.Size = new System.Drawing.Size(228, 25);
             this.display.TabIndex = 20;
             this.display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.display.TextChanged += new System.EventHandler(this.display_TextChanged);
             // 
             // CalculatorGUI
             // 

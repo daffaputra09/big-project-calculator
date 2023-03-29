@@ -172,7 +172,7 @@
             this.panel7.Controls.Add(this.label9);
             this.panel7.Controls.Add(this.label11);
             this.panel7.Location = new System.Drawing.Point(272, 146);
-            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(52, 26, 26, 26);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(229, 148);
             this.panel7.TabIndex = 7;
@@ -235,8 +235,8 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(584, 146);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Location = new System.Drawing.Point(553, 146);
+            this.panel2.Margin = new System.Windows.Forms.Padding(26);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(229, 148);
             this.panel2.TabIndex = 15;
@@ -300,8 +300,8 @@
             this.panel3.Controls.Add(this.CobaCalculatorGui);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(584, 328);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Location = new System.Drawing.Point(553, 346);
+            this.panel3.Margin = new System.Windows.Forms.Padding(26);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(229, 148);
             this.panel3.TabIndex = 17;
@@ -364,8 +364,8 @@
             this.panel4.Controls.Add(this.label12);
             this.panel4.Controls.Add(this.label13);
             this.panel4.Controls.Add(this.label14);
-            this.panel4.Location = new System.Drawing.Point(272, 328);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Location = new System.Drawing.Point(272, 346);
+            this.panel4.Margin = new System.Windows.Forms.Padding(26);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(229, 148);
             this.panel4.TabIndex = 16;
@@ -427,7 +427,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(856, 573);
+            this.ClientSize = new System.Drawing.Size(845, 573);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);

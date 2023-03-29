@@ -140,5 +140,10 @@ namespace MenuCalculatorGui
                 display.Text = display.Text.Remove(display.Text.Length - 1);
             }
         }
+
+        private void display_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

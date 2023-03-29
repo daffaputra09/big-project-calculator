@@ -62,8 +62,9 @@
             this.angka1.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
             this.angka1.ForeColor = System.Drawing.Color.White;
             this.angka1.Location = new System.Drawing.Point(38, 54);
-            this.angka1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.angka1.Margin = new System.Windows.Forms.Padding(2);
             this.angka1.Name = "angka1";
+            this.angka1.ReadOnly = true;
             this.angka1.Size = new System.Drawing.Size(90, 25);
             this.angka1.TabIndex = 39;
             this.angka1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -299,7 +300,7 @@
             this.button10.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(49)))));
             this.button10.Location = new System.Drawing.Point(38, 98);
-            this.button10.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button10.Margin = new System.Windows.Forms.Padding(8);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(90, 41);
             this.button10.TabIndex = 40;
@@ -315,7 +316,7 @@
             this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(49)))));
             this.button11.Location = new System.Drawing.Point(134, 98);
-            this.button11.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button11.Margin = new System.Windows.Forms.Padding(8);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(90, 41);
             this.button11.TabIndex = 41;
@@ -331,7 +332,7 @@
             this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(49)))));
             this.button12.Location = new System.Drawing.Point(230, 98);
-            this.button12.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button12.Margin = new System.Windows.Forms.Padding(8);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(90, 41);
             this.button12.TabIndex = 42;
@@ -347,7 +348,7 @@
             this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(41)))), ((int)(((byte)(49)))));
             this.button13.Location = new System.Drawing.Point(326, 98);
-            this.button13.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button13.Margin = new System.Windows.Forms.Padding(8);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(90, 41);
             this.button13.TabIndex = 43;
@@ -362,8 +363,9 @@
             this.angka2.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
             this.angka2.ForeColor = System.Drawing.Color.White;
             this.angka2.Location = new System.Drawing.Point(230, 54);
-            this.angka2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.angka2.Margin = new System.Windows.Forms.Padding(2);
             this.angka2.Name = "angka2";
+            this.angka2.ReadOnly = true;
             this.angka2.Size = new System.Drawing.Size(90, 25);
             this.angka2.TabIndex = 45;
             this.angka2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -404,10 +406,9 @@
             this.simbol.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
             this.simbol.ForeColor = System.Drawing.Color.White;
             this.simbol.Location = new System.Drawing.Point(134, 54);
-            this.simbol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.simbol.Margin = new System.Windows.Forms.Padding(2);
             this.simbol.Name = "simbol";
             this.simbol.ReadOnly = true;
-            this.simbol.ShortcutsEnabled = false;
             this.simbol.Size = new System.Drawing.Size(90, 25);
             this.simbol.TabIndex = 49;
             this.simbol.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -420,8 +421,9 @@
             this.jadi.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
             this.jadi.ForeColor = System.Drawing.Color.White;
             this.jadi.Location = new System.Drawing.Point(326, 54);
-            this.jadi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.jadi.Margin = new System.Windows.Forms.Padding(2);
             this.jadi.Name = "jadi";
+            this.jadi.ReadOnly = true;
             this.jadi.Size = new System.Drawing.Size(90, 25);
             this.jadi.TabIndex = 50;
             this.jadi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -459,7 +461,7 @@
             this.Controls.Add(this.button0);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CalculatorMenu";
             this.Text = "Calculator Menu";
             this.Load += new System.EventHandler(this.Calculator1_Load);
