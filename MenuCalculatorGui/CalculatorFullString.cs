@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace MenuCalculatorGui
 {
+    
     public partial class CalculatorFullString : Form
     {
         public CalculatorFullString()
@@ -85,6 +86,114 @@ namespace MenuCalculatorGui
         private void buttonclear_Click(object sender, EventArgs e)
         {
             display.Text = "";
+        }
+
+        private void display_TextChanged(object sender, EventArgs e)
+        {   
+
+        }
+        private void buttonequals_Click(object sender, EventArgs e)
+        {
+            string hasil = new Programx().Mainx(display.Text);
+            display.Text = hasil;
+        }
+
+    }
+    class Programx
+    {
+       public string Mainx(string input)
+        {
+
+            int awal = input.IndexOf(' ');
+            int akhir = input.LastIndexOf(' ');
+            awal += 1;
+
+            int length = akhir - awal;
+
+            string pertama = input.Substring(0, (awal - 1));
+            string KataOperator = input.Substring(awal, length);
+            string kedua = input.Substring(akhir + 1);
+            string operasi = KataOperator;
+            switch (operasi)
+            {
+                case "ditambah":
+                    int hasil = JadiInt(pertama) + JadiInt(kedua);
+                    return JadiString(hasil);
+                case "dikurangi":
+                    hasil = JadiInt(pertama) - JadiInt(kedua);
+                    return JadiString(hasil);
+                case "dikali":
+                    hasil = JadiInt(pertama) * JadiInt(kedua);
+                    return JadiString(hasil);
+                case "dibagi":
+                    hasil = JadiInt(pertama) / JadiInt(kedua);
+                    return JadiString(hasil);
+                default: return null;
+            }
+        }
+        static int JadiInt(string kalimat)
+        {
+            switch (kalimat)
+            {
+                case "nol":
+                    return 0;
+                case "satu":
+                    return 1;
+                case "dua":
+                    return 2;
+                case "tiga":
+                    return 3;
+                case "empat":
+                    return 4;
+                case "lima":
+                    return 5;
+                case "enam":
+                    return 6;
+                case "tujuh":
+                    return 7;
+                case "delapan":
+                    return 8;
+                case "sembilan":
+                    return 9;
+                default:
+                    throw new ArgumentException("Hanya dapat menggunakan angka 0 sampai 9");
+            }
+        }
+        static string JadiString(int hasil)
+        {
+            switch (hasil)
+            {
+                case 1:
+                    return ("satu");
+
+                case 2:
+                    return ("dua");
+
+                case 3:
+                    return ("tiga");
+
+                case 4:
+                    return ("empat");
+
+                case 5:
+                    return ("lima");
+
+                case 6:
+                    return ("enam");
+
+                case 7:
+                    return ("tujuh");
+
+                case 8:
+                    return ("delapan");
+
+                case 9:
+                    return ("sembilan");
+
+                default:
+                    return ("perhitungan lebih dari sembilan");
+
+            }
         }
     }
 }
