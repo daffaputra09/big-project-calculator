@@ -68,7 +68,7 @@ namespace MenuCalculatorGui
         }
 
         private void buttonequals_Click(object sender, EventArgs e)
-        {
+        {   
             buttonnext.Enabled = true;
             buttonplus.Enabled = false;
             buttonmin.Enabled = false;
@@ -87,6 +87,7 @@ namespace MenuCalculatorGui
             angka2.Text = "";
             jadi.Text = "";
             buttonnext.Enabled = true;
+            buttonnext2.Enabled = false;
             buttonplus.Enabled = false;
             buttonmin.Enabled = false;
             buttonkali.Enabled = false;
@@ -296,6 +297,11 @@ namespace MenuCalculatorGui
         }
 
         private void angka2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simbol_TextChanged(object sender, EventArgs e)
         {
 
         }
